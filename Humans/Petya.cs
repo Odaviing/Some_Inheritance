@@ -32,5 +32,18 @@ namespace Humans
         {
             return "2 + 2 = 4";
         }
+
+        public string PlayDND()
+        {
+            Random rand = new Random();
+            int dmg = rand.Next(1, 6) + rand.Next(1, 6) + rand.Next(1, 6) + rand.Next(1, 6) + rand.Next(1 ,6);
+            return "My fireball damage is " + dmg + " points";
+        }
+
+        public string Archery()
+        {
+            Random rand = new Random();
+            return "I made " + rand.Next(5, 10) + " shots. Only " + rand.Next(0, 3) + " was successfull";
+        }
     }
 }

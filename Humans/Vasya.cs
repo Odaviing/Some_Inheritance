@@ -32,5 +32,15 @@ namespace Humans
         {
             return "2 + 2 = 5";
         }
+
+        public string PlayMTG()
+        {
+            return "Draw - Mountain - Bolt the bird - Pass";
+        }
+
+        public string WatchYoutube()
+        {
+            return "Those memes are funny";
+        }
     }
 }

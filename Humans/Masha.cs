@@ -33,5 +33,15 @@ namespace Humans
         {
             return "Yes";
         }
+
+        public string ListenToMusic()
+        {
+            return "Let's rock!";
+        }
+
+        public string ReadBooks()
+        {
+            return "One Ring to rule them all...";
+        }
     }
 }
